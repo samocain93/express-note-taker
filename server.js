@@ -1,7 +1,27 @@
 const express = require('express');
 const path = require('path');
+const api = require('./routes/index.js')
 
 const app = express();
+
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+// HTTP://localhost:4000/api
+app.use('/api', api)
+
+app.use(express.static('public'))
+// http://localhost:4000/
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'))
+})
+
+// http://localhost:4000/notes 
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/notes.html'))
+})
+
+
 
 
 
