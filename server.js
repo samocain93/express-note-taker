@@ -12,6 +12,8 @@ app.use('/api', api)
 
 app.use(express.static('public'))
 // http://localhost:4000/
+
+// Serving index file to the root path
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/index.html'))
 })
