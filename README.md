@@ -18,6 +18,7 @@ This application will allow users to create and save notes on a webpage, providi
 ## Table of Contents
 
 - [Languages](#languages)
+- [Deployed Application](#deployed-application)
 - [Installation](#installation)
 - [Screenshot](#screenshot)
 - [Usage](#usage)
@@ -31,6 +32,8 @@ This application will allow users to create and save notes on a webpage, providi
 ) ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
 ) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 )
+
+## Deployed Application
 
 
 ## Installation
