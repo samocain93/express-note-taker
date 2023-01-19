@@ -84,7 +84,7 @@ For more information on Node.js and Express, visit:
 - Sam O'Cain, 2023
 
 
-## Questions?
+## Questions
 
 Email: [samocain93@gmail.com](mailto:samocain93@gmail.com)  
 
