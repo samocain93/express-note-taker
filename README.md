@@ -1,32 +1,36 @@
 # Note Taker
 An application using Express.js that can be used to write and save notes
 
-
-
 ## Description
 
-This 
+This application will allow users to create and save notes on a webpage, providing a title and description along with each note. If the user decides to delete a note, they will have the option to delete a created note using the red trash icon next to the list of notes on the left of the page.
 
 ### User Story
 
 - As a small business owner, I want to be able to write and save notes so that I can organize and keep track of tasks I need to complete
 
 ### What I Learned
-- More in depth experience using Inquirer prompts and generating info to a page
-- Implementing Test Driven Development using the Jest testing packages
-- Deeper file structuring of my code
-- Continued practice and development with Object Oriented Programming
+- Continued practice using Node.js and new Node packages
+- Using the express Framework for the first time to create routes for a server
+- Deploying a webpage to be hosted using Heroku
 
 
 ## Table of Contents
 
+- [Languages](#languages)
 - [Installation](#installation)
 - [Screenshot](#screenshot)
 - [Usage](#usage)
-- [Walkthrough Demo](#walkthrough)
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
+
+
+## Languages
+![html shield](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+) ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
+)
 
 
 ## Installation
@@ -47,13 +51,6 @@ To run and test this application, the following programs/libraries will need to 
 1. If you've followed all the steps in the `installation` section, you are now ready to begin.
 2. Clear out your terminal by typing `clear` in your command line
 3. Type in `index.js` to start the index file and the inquirer prompter will start by asking you the first manager question
-
-
-
-
-## Walkthrough
-
-[Walkthrough Demo Video](https://drive.google.com/file/d/1t2hL8FvgTWx1YgYEB6wGaW9imHs9Ca27/view?usp=share_link)  
 
 
 ## Screenshot
